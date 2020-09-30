@@ -1,6 +1,6 @@
 package sports;
 
-public class ClubFootball extends Football{
+public class ClubFootball extends Football {
     public ClubFootball(int pitchLength, int pitchWidth) {
         super(pitchLength, pitchWidth);
     }

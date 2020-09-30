@@ -1,6 +1,10 @@
 package sports;
 
-public class Chess extends IndividualSport implements INotBallSport, IRules{
+public class Chess extends IndividualSport implements INotBallSport, IRules {
+    IPlayer chessPlayer;
+    public Chess(IPlayer chessPlayer) {
+        this.chessPlayer = chessPlayer;
+    }
     public void winCriteria() {
         System.out.println("You win by killing the king of the opposite player");
     }
